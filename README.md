@@ -62,7 +62,7 @@ Boox has documentation on [permitting Google Play Store](https://help.boox.com/h
 
 #### Alternative ebook (epub, mobi, pdf, az3) readers and annotators
 
-- [KOReader](https://github.com/koreader/koreader) is the heavyweight open source document reader for e-ink (PDF, DjVu, EPUB, FB2, CBZ…). It runs on Boox via its Android build, and has a big plugin ecosystem (a few Boox-relevant ones are listed under [Open source projects on GitHub](#open-source-projects-on-github))
+- [KOReader](https://github.com/koreader/koreader) is the big one, and it gets [its own section](#koreader)
 #### Stylus
 
 The eink displays try to recreate familiar concepts and use electromagnetic resonanace (EMR) technology, and it's a patented technology by Wacom, which is obviously the most well-known name in graphics tablets used by creative professionals for decades. They use EMR styluses, so the e-ink displays Boox uses also can use an EMR stylus, and Boox makes and sells a few but some fan favorites worth looking at would include:
@@ -81,6 +81,14 @@ dotgrid or gtfo
 
 ### Paid Templates and Planners
 
+
+## KOReader
+
+[KOReader](https://github.com/koreader/koreader) is the heavyweight open source document reader for e-ink: PDF, DjVu, EPUB, FB2, CBZ and more, with serious reflow, contrast, and margin-cropping controls for PDFs. It runs on Boox through its Android build (grab the APK from the releases page or F-Droid), and it has a big plugin ecosystem. Plugins are folders ending in `.koplugin` that go in KOReader's `plugins` directory.
+
+- [ZenOS](https://github.com/xZenLabs/zen-os) is a KOReader plugin that puts a clean, minimal interface on top of KOReader: a home page, a redesigned library, a launcher, and unified settings, with KOReader still doing the work underneath. Needs KOReader 2026.03 or newer; install by unzipping `zenos.koplugin.zip` into the plugins folder. GPL-3.0 and very actively developed
+- [derainbowify.koplugin](https://github.com/Euphoriyy/derainbowify.koplugin) reduces the rainbow artifacts on Kaleido 3 color e-ink screens
+- [palmasleepscreen.koplugin](https://github.com/naraxian/palmasleepscreen.koplugin) shows the current book cover as the Boox Palma sleep screen
 
 ## Open source projects on GitHub
 
@@ -132,11 +140,6 @@ Things people have built for (or that work especially well on) a Boox. Star coun
 - [OnyxTweaks](https://github.com/timschneeb/OnyxTweaks) is an Xposed module for tweaking Android 12 Boox devices. Requires root, so it is squarely at-your-own-risk
 - [Onyx-Boox-Blocklist](https://github.com/JordanEJ/Onyx-Boox-Blocklist) is a DNS blocklist for Boox telemetry domains (use with Pi-hole, NextDNS, etc.). Blocking the wrong thing can break cloud sync or updates
 - [onyx-boox-screensaver-gol](https://github.com/hbmartin/onyx-boox-screensaver-gol) is a Conway's Game of Life screensaver, because why not
-
-### KOReader plugins worth knowing about
-
-- [derainbowify.koplugin](https://github.com/Euphoriyy/derainbowify.koplugin) reduces the rainbow artifacts on Kaleido 3 color e-ink screens
-- [palmasleepscreen.koplugin](https://github.com/naraxian/palmasleepscreen.koplugin) shows the current book cover as the Boox Palma sleep screen
 
 ### Templates, planners, and fonts
 
